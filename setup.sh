@@ -10,5 +10,5 @@ if [ ! -d ~/Library/Developer/Xcode/Templates/File\ Templates/ ]; then
 fi
 
 cp -R ./CleanMVVM ~/Library/Developer/Xcode/Templates/File\ Templates
-
+cp -R ./CleanMVVM+Texture ~/Library/Developer/Xcode/Templates/File\ Templates
 echo "[*] Successfully installed."
