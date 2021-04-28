@@ -6,10 +6,12 @@
 //
 
 import AsyncDisplayKit
+import RxSwift
 
 final class ___VARIABLE_sceneIdentifier___ViewController: ASDKViewController<___VARIABLE_sceneIdentifier___Container> {
   
   private let viewModel: ___VARIABLE_sceneIdentifier___ViewModel!
+  private let disposeBag = DisposeBag()
   
   init(viewModel: ___VARIABLE_sceneIdentifier___ViewModel) {
     self.viewModel = viewModel

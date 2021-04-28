@@ -6,10 +6,12 @@
 //
 
 import UIKit
+import RxSwift
 
 final class ___VARIABLE_sceneIdentifier___ViewController: UIViewController {
   
   private let viewModel: ___VARIABLE_sceneIdentifier___ViewModel!
+  private let disposeBag = DisposeBag()
   
   lazy var containerView: ___VARIABLE_sceneIdentifier___ContainerView = {
     let view = ___VARIABLE_sceneIdentifier___ContainerView()

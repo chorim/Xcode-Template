@@ -27,6 +27,9 @@ struct ___VARIABLE_sceneIdentifier___ViewControllerRepresentable: UIViewControll
 
 @available(iOS 13.0.0, *)
 struct ___VARIABLE_sceneIdentifier___MockViewModel: ___VARIABLE_sceneIdentifier___ViewModel {
+  var inputs: ___VARIABLE_sceneIdentifier___ViewModelInput { return self }
+  var outputs: ___VARIABLE_sceneIdentifier___ViewModelOutput { return self }
+  
   let disposeBag = DisposeBag()
   
   func viewDidLoad() {
