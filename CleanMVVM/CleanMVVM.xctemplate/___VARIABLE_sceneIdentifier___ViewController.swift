@@ -27,9 +27,12 @@ final class ___VARIABLE_sceneIdentifier___ViewController: UIViewController {
     fatalError("init(coder:) has not been implemented")
   }
   
+  override func loadView() {
+    view = containerView
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    view = containerView
     DispatchQueue.main.async {
       self.bind(to: self.viewModel)
       self.viewModel.viewDidLoad()
