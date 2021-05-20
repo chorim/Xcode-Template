@@ -11,4 +11,5 @@ fi
 
 cp -R ./CleanMVVM ~/Library/Developer/Xcode/Templates/File\ Templates
 cp -R ./CleanMVVM+Texture ~/Library/Developer/Xcode/Templates/File\ Templates
+cp -R ./CleanMVVM+Xib ~/Library/Developer/Xcode/Templates/File\ Templates
 echo "[*] Successfully installed."
