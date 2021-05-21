@@ -10,7 +10,7 @@ import RxSwift
 
 final class ___VARIABLE_sceneIdentifier___ViewController: UIViewController, NibInstantiable {
   
-  private let viewModel: ___VARIABLE_sceneIdentifier___ViewModel!
+  private var viewModel: ___VARIABLE_sceneIdentifier___ViewModel!
   private let disposeBag = DisposeBag()
   
   class func create(with viewModel: ___VARIABLE_sceneIdentifier___ViewModel) -> ___VARIABLE_sceneIdentifier___ViewController {
